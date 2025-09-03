@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--PRIMARY (60%) -->
+    <!-- orange -->
+    <color name="primary_orange_light">#FF9800</color>
+    <color name="primary_orange_mid">#FF870B</color>
+    <color name="primary_orange_dark">#FF7300</color>
+    <color name="primary_orange">#FF8B22</color>
+
+    <!-- SECONDARY (30%) -->
+    <!-- Cream / white  -->
+    <color name="secondary_creamy_white">#FFF8E1</color>
+    <color name="secondary_white">#FFFFFF</color>
+    <color name="secondary_light_gray">#F5F5F5</color>
+
+    <!-- (10%)-->
+    <!--  highlights -->
+    <color name="accent_green">#C8F3C8</color>
+    <color name="accent_yellow">#FFC107</color>
+
+    <!-- text -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#6C6C6C</color>
+    <color name="divider">#1F000000</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

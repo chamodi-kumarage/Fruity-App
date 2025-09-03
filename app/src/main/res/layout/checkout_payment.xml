@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Top Bar -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/btnBack8"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/back_arrow"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Payment Method"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/btnBack9"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/bell_icon"
+            app:tint="@color/black" />
+
+    </LinearLayout>
+
+    <!-- Payment Info -->
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="For payment: Rs.3300"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Including delivery (Rs.300)"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp" />
+
+    <!-- Payment Method Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCreditCard"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FB8C00"
+            android:text="Credit card"
+            android:textColor="@color/colorOnSecondary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCashOnDelivery"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorOnSecondary"
+            android:text="Cash on delivery"
+            android:textColor="@color/accent_green"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Card Details -->
+    <EditText
+        android:id="@+id/etCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Card number"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#AAAAAA" />
+
+    <EditText
+        android:id="@+id/etCardHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Cardholder name"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#AAAAAA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etExpiry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="MM / YYYY"
+            android:inputType="date"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#AAAAAA" />
+
+        <EditText
+            android:id="@+id/etCVV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:hint="CVV / CVC"
+            android:inputType="numberPassword"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#AAAAAA" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="247dp">
+
+        <Button
+            android:id="@+id/btnConfirmPayment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#FB8C00"
+            android:text="Confirm Payment"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="181dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Navigation bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F8511C"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/navCart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Cart"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cart_icon"
+            app:tint="@color/colorOnSecondary" />
+
+        <ImageButton
+            android:id="@+id/navFav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Cart"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart_icon"
+            app:tint="@color/colorOnSecondary" />
+
+        <ImageButton
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Home"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_icon"
+            app:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/navMsg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Notify"
+            android:scaleType="fitCenter"
+            android:src="@drawable/message_icon"
+            app:tint="@color/colorOnSecondary" />
+
+        <ImageButton
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="Profile"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile_icon"
+            app:tint="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

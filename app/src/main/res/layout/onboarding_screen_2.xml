@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_onboad_gradient"
+    android:padding="24dp">
+
+    <!-- Main illustration -->
+    <ImageView
+        android:id="@+id/imgIllustration2"
+        android:layout_width="375dp"
+        android:layout_height="344dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        android:src="@drawable/i4" />
+
+    <!-- Logo text image -->
+    <ImageView
+        android:id="@+id/imgLogoText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgIllustration2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/name" />
+
+    <!-- Optional subtitle -->
+    <TextView
+        android:id="@+id/txtSubtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogoText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Track fresh produce to your door\nfast and safely"
+        android:textColor="#666666"
+        android:textSize="16sp" />
+
+    <!-- Next arrow (must be id=imageView17 for your .kt) -->
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_next_circle"
+        android:padding="12dp"
+        android:src="@drawable/ic_next_arrow"
+        android:contentDescription="@string/next_image" />
+
+</RelativeLayout>

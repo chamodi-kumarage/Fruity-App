@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">fruitiee</string>
+    <string name="daily_fresh_fruits">Daily Fresh Fruits</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="all">All</string>
+    <string name="organic">Organic</string>
+    <string name="the_easiest_way_to_buy_your_fresh_fruits_shoppings">The easiest way to buy your fresh fruits shoppings</string>
+    <string name="your_healthy_shopping_starts_here_nenjoy_the_freshness">Your healthy shopping starts here.\nEnjoy the freshness!</string>
+    <string name="get_farm_fresh_fruits_delivered_to_your_doorstep_in_hours">Get farm-fresh fruits delivered to your doorstep in hours.</string>
+    <string name="papaya_paradise_works_with_trusted_tropical_farms_to_bring_you_ripe_golden_papayas_papayas_are_easy_to_find_in_the_fresh_section_soft_sweet_and_sometimes_a_bit_spotted_on_the_outside_but_bursting_with_flavor_inside">Papaya Paradise works with trusted tropical farms to bring you ripe, golden papayas. Papayas are easy to find in the fresh section — soft, sweet, and sometimes a bit spotted on the outside, but bursting with flavor inside.</string>
+    <string name="cart">Cart</string>
+    <string name="papaya">Papaya</string>
+    <string name="rs_12_100g">Rs.12/100g</string>
+    <string name="rs_345_00">Rs.345.00</string>
+    <string name="rs_45_100g">Rs.45/100g</string>
+    <string name="menu_wishlist">menu wishlist</string>
+    <string name="menu_home">menu home</string>
+    <string name="menu_hat">menu hat</string>
+    <string name="menu_profile">menu profile</string>
+    <string name="menu_cart">menu cart</string>
+    <string name="next_image">next image</string>
+</resources>
