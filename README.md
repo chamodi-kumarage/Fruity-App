@@ -72,6 +72,8 @@ With its attractive design, smooth navigation, and secure payment system, FRUITI
 <img width="346" height="721" alt="1-removebg-preview (1)" src="https://github.com/user-attachments/assets/10989a10-31db-4831-8547-17eafa77d9f7" />
 <img width="343" height="727" alt="5-removebg-preview" src="https://github.com/user-attachments/assets/2edb113e-be7a-4463-b012-bd5003307aa3" />
 <img width="344" height="726" alt="9-removebg-preview" src="https://github.com/user-attachments/assets/724e1999-97a8-417e-adae-e40dc8e6dbfd" />
+<img width="344" height="726" alt="15-removebg-preview" src="https://github.com/user-attachments/assets/00556300-7d3e-4557-9917-ca06e9fb3e0b" />
+
 
 
 
