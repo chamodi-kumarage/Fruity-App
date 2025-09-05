@@ -1,7 +1,3 @@
-Perfect 👌 I’ll make you a **professional README.md** for your **FRUITIE – Fruit Shop App**.
-You can just copy–paste this into your `README.md` file when you create it manually.
-
----
 
 # 🍊 FRUITIE – Fruit Shop App
 
