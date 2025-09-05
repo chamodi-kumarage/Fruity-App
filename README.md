@@ -69,10 +69,12 @@ With its attractive design, smooth navigation, and secure payment system, FRUITI
 * Email: [chamodikumarage2003@gmail.com](mailto:chamodikumarage2003@gmail.com)
 
 ---
+<img width="346" height="721" alt="1-removebg-preview (1)" src="https://github.com/user-attachments/assets/10989a10-31db-4831-8547-17eafa77d9f7" />
+<img width="343" height="727" alt="5-removebg-preview" src="https://github.com/user-attachments/assets/2edb113e-be7a-4463-b012-bd5003307aa3" />
+<img width="344" height="726" alt="9-removebg-preview" src="https://github.com/user-attachments/assets/724e1999-97a8-417e-adae-e40dc8e6dbfd" />
 
-<img width="397" height="790" alt="image" src="https://github.com/user-attachments/assets/13e4405c-321d-461f-b270-3d499ce40f0e" />
-<img width="354" height="717" alt="image" src="https://github.com/user-attachments/assets/0269b6a9-aa3c-41b1-b4d5-5c9f28defc3a" />
-<img width="369" height="739" alt="image" src="https://github.com/user-attachments/assets/9d4fc372-de9a-42ab-8e36-b03c0285553c" />
+
+
 
 
 
